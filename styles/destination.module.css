@@ -1,0 +1,60 @@
+.uppercontainer, .downcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.downcontainer{
+    height: 50vh!important;
+}
+
+.uppercontainer{
+    height: calc(50vh);
+}
+
+.uppercontainer > *{
+    padding-top: 60px;
+}
+
+.gambar{
+    margin : 0;
+    padding : 0;
+}
+
+#Wisata > *, #Wisata {
+    margin : 0!important;
+    padding : 0!important;
+}
+
+.featpict{
+    height: 100%;
+}
+
+.specs{
+    justify-content: space-around;
+    margin: 0;
+}
+
+
+div.ontop > * {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.textarea{
+    background-color: red;
+    min-height: fit-content;
+}
+
+.gallery, .textarea{
+    overflow-y: scroll;
+    height : 50vh;
+    scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar, .textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.nav-link {
+    font-size: 200pt!important;
+}

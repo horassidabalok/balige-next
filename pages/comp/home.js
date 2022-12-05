@@ -10,12 +10,8 @@ export default function Home(){
             Description : "THIZ IS FOCK",
             BackgroundURL : "https://picsum.photos/1366/768"
         },
-        {
-            Title : "Test 3",
-            Description : "THIZ IS FOCK",
-            BackgroundURL : "https://picsum.photos/1600/900"
-        },
     ]
+
     return <>
                 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
