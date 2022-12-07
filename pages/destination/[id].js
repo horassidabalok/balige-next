@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Header from "../comp/header"
+import Header from "../comp/_header"
 import deststy from "../../styles/destination.module.css"
 
 export default function Destination(){

@@ -1,0 +1,45 @@
+#aco-img1{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+#aco-img2{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+#aco-img3{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+#aco-img4{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+#aco-img5{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+#aco-img6{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+#aco-img7{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+#aco-img8{
+    background-image: url('http://unsplash.it/1800/1800');
+    display: flex;
+    height: 220px;
+}
+
+.row{
+    align-items: center;
+    background-color: aquamarine;
+}
