@@ -11,9 +11,6 @@
     height: calc(50vh);
 }
 
-.uppercontainer > *{
-    padding-top: 60px;
-}
 
 .gambar{
     margin : 0;
@@ -26,7 +23,9 @@
 }
 
 .featpict{
-    height: 100%;
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
 .specs{
@@ -57,4 +56,17 @@ div.ontop > * {
 
 .nav-link {
     font-size: 200pt!important;
+}
+
+.finditlink{
+    color : white;
+    text-decoration: none;
+    opacity: .7;
+}
+
+.finditlink:hover{
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+    font-weight: bold;
 }

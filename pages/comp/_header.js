@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header({addtClass, addtStyles}){
     let navbarBrand = require("../../appconfig.json").navbarBrand;
 
@@ -22,10 +24,10 @@ export default function Header({addtClass, addtStyles}){
                 }}>
                     <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#"> Home</a>
+                                <Link className="nav-link" href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" id="nav2" href="#">Acomodation</a>                        
+                                <Link href="/acomodation" className="nav-link" id="nav2">Acomodation</Link>                     
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" id="nav3" href="#">Destination of the day</a>                    
