@@ -36,7 +36,7 @@ export default function Home(){
                     return  <div key={index} className={"carousel-item "+((index == 0) ? "active" : "")} style={{
                                     backgroundImage : `url('${i.BackgroundURL}')`,
                             }}>
-                            <div className="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption">
                                 <h5>{i.Title + " " + index}</h5>
                                 <p>{i.Description}</p>
                             </div>

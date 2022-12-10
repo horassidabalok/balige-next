@@ -30,14 +30,14 @@ export default function Header({addtClass, addtStyles}){
                                 <Link href="/acomodation" className="nav-link" id="nav2">Acomodation</Link>                     
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" id="nav3" href="#">Destination of the day</a>                    
+                                <Link href="/destoftheday" className="nav-link" id="nav2">Destination of the day</Link>                     
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" id="nav3" href="#">Tips &amp; Tricks</a>                    
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" id="nav3" href="#">List of Spot</a>
+                                <Link href="/placetovisit" className="nav-link" id="nav2">Desrination</Link>                     
                             </li>                    
+                            <li className="nav-item">
+                                <Link href="/posts/0" className="nav-link" id="nav2">Tips & trick in balige</Link>                     
+                            </li>
                     </ul>
                 </div>
            </div>
