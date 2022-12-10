@@ -27,7 +27,7 @@ export default function Header({addtClass, addtStyles}){
                                 <Link className="nav-link" href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/acomodation" className="nav-link" id="nav2">Acomodation</Link>                     
+                                <Link href="/accomodation" className="nav-link" id="nav2">Acomodation</Link>                     
                             </li>
                             <li className="nav-item">
                                 <Link href="/destoftheday" className="nav-link" id="nav2">Destination of the day</Link>                     
