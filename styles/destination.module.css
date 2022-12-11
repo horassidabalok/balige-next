@@ -1,0 +1,80 @@
+.uppercontainer, .downcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.downcontainer{
+    height: 50vh!important;
+}
+
+.uppercontainer{
+    height: calc(50vh);
+}
+
+
+.gambar{
+    margin : 0;
+    padding : 0;
+}
+
+#Wisata > *, #Wisata {
+    margin : 0!important;
+    padding : 0!important;
+}
+
+.featpict{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.specs{
+    justify-content: space-around;
+    margin: 0;
+}
+
+
+div.ontop > * {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.textarea{
+    background-color: red;
+    min-height: fit-content;
+}
+
+.gallery, .textarea{
+    overflow-y: scroll;
+    height : 50vh;
+    scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar, .textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.nav-link {
+    font-size: 200pt!important;
+}
+
+.finditlink{
+    color : white;
+    text-decoration: none;
+    opacity: .7;
+}
+
+.finditlink:hover{
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.specstext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 0 20px;
+}
