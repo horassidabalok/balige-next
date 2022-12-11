@@ -47,9 +47,9 @@ export default function Post(){
                     backgroundColor: "#f8f1e5",                
             }}>
                 {
-                    sidebarLinks.map(i => {
+                    sidebarLinks.map((i, index) => {
                         return (
-                            <div className={"col-12 p-3 "+style.content}>
+                            <div key={index} className={"col-12 p-3 "+style.content}>
                                 <Link className={style.sidebarlink} href={i.url}><span className="h4">{i.text}</span></Link>
                             </div>        
                         )

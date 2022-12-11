@@ -1,7 +1,13 @@
-import { useRouter } from "next/router";
+export default function Header(){
 
-export default function Header({addtClass, addtStyles}){
-    let router = useRouter();
+    return <></>
+}
 
-    router.push('/')
+export async function getServerSideProps(ctx){
+
+    return {
+        redirect : {
+            destination : '/'
+        }
+    }
 }
