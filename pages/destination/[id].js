@@ -3,9 +3,20 @@ import Header from "../comp/_header"
 import deststy from "../../styles/destination.module.css"
 import Link from "next/link";
 
-export default function Destination(){
-    let { id } = useRouter().query;
-    let data = {
+import blogdb from "../../database.json"
+import { useEffect } from "react";
+
+export default function Destination({data}){
+    const router = useRouter()
+    let { id } = router.query;
+
+    let selecteddata = data.destination[parseInt(id)]
+
+    useEffect(() => {
+        console.log(selecteddata)
+    })
+    
+    let datax = {
         bigPict : "https://unsplash.it/1920/1920",
         gallerypict : [
             "https://unsplash.it/800/800",
@@ -37,6 +48,16 @@ export default function Destination(){
         ]
     }
 
+    let gallery;
+    for(let i = 0; i < selecteddata.nFoto; i++){
+        gallery = <>
+            {gallery}
+            <div key={i} class={deststy.gambar+" col-md-4 col-sm-6 col-lg-3 col-6"}>
+                <img height={150} width={100} src={data.storageurl+"/destinasi/"+selecteddata.nama+"/"+i+".png"} class={" col-12"} alt="" srcset=""/>
+            </div>
+        </>
+    }
+
     return <>
         <Header addtClass="fixed-top"/>        
 
@@ -45,12 +66,12 @@ export default function Destination(){
                 background : "#f8f1e5",
                 color : "black"
             }} className={"col-lg-4 col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-center"}>
-                <h1 className="py-5 my-5 col-12 text-center">Grand Hotel</h1>
+                <h1 className="py-5 my-5 col-12 text-center">{selecteddata.nama}</h1>
             </div>
             <div className="col-lg-8 col-md-6 col-sm-12" style={{
                 "height" : "50vh"
             }}>
-                <img src={data.bigPict} className={deststy.featpict + " col-12"}/>
+                <img src={data.storageurl+"/destinasi/"+selecteddata.nama+"/"+selecteddata.featuredFoto+".png"} className={deststy.featpict + " col-12"}/>
             </div>
         </div>
         <div className={deststy.downcontainer}>
@@ -60,11 +81,7 @@ export default function Destination(){
                     margin : 0
                 }}>
                     {
-                        data.gallerypict.map((index, number) => {
-                            return <div key={number} class={deststy.gambar+" col-4"}>
-                                <img src={index} class={" col-12"} alt="" srcset=""/>
-                            </div>
-                        })
+                        gallery
                     }
                 </div>
             </div>
@@ -78,36 +95,52 @@ export default function Destination(){
                 }}>
 
                     <div className={"a col-sm-12 col-md-3 col-lg-3 text-center "+deststy.specstext}>
-                        <h3>{data.link[0][0]}</h3>
-                        <p>{data.link[0][1]}</p>
+                        <h3>Lokasi</h3>
+                        <p>{selecteddata.alamat}</p>
                     </div>
 
                     <div className={"a col-sm-12 col-md-3 col-lg-3 text-center "+deststy.specstext}>
-                        <h3>{data.link[1][0]}</h3>
-                        <p>{data.link[1][1]}</p>
+                        <h3>Rating</h3>
+                        <p>{selecteddata.rating}</p>
                     </div>
 
                     <div className={"a col-sm-12 col-md-3 col-lg-3 text-center d-flex justify-content-center align-content-center "+deststy.specstext}>
                         <div>
-                            <h3>{data.link[2][0]}</h3>
-                            <p>{data.link[2][1] + " - " + data.link[2][2]}</p>
+                            <h3>Jam Buka</h3>
+                            <p>{selecteddata.jamBuka}</p>
                         </div>
                     </div>
 
                     <div className={"a col-sm-12 col-md-3 col-lg-3 text-center "+deststy.specstext}>
-                        <h3>{data.link[3][0]}</h3>
+                        <h3>Find it on</h3>
                         {
-                            data.link[3][1].map(i => {return (
-                                <p key={i[0]}><Link href={i[1]} className={deststy.finditlink}>{i[0]}</Link></p>
-                            )})
+                            selecteddata.links.map(i => {
+                                return <p key={i[0]}>
+                                    <Link style={{
+                                        color:"white",
+                                        textDecoration : "none"
+                                    }} href={i[1]}>{i[0]}</Link>
+                                </p>
+                            })
                         }
                     </div>
 
                 </div>
                 <div className="p-5 text-white">
-                    {data.content}
+                    {selecteddata.deskripsi}
                 </div>
             </div>
         </div>
     </>
+
+}
+
+export async function getServerSideProps(context){
+    let blogdata = blogdb
+
+    return {
+        props : {
+            data : blogdata
+        }
+    }
 }

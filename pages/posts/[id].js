@@ -1,8 +1,18 @@
 import Header from "../comp/_header"
 import Link from "next/link"
 import style from "../../styles/posts.module.css"
+import blogdb from "../../database.json"
+import { useRouter } from "next/router"
 
-export default function Post(){
+
+export default function Post({blogdata}){
+
+    const router = useRouter()
+    let { id } = router.query;
+
+    let currentvisitedblog = blogdata[parseInt(id)]
+
+
     let data = {
         background : "https://unsplash.it/1920/1080",
         title : "Hi dunia",
@@ -22,6 +32,8 @@ export default function Post(){
         {text : ("this text is "+(new Date()).getTime()), url: "#"},
     ]
 
+
+
     return <>
         <Header addtClass={"fixed-top"}/>
         <div className="jumbotron" style={{
@@ -39,18 +51,18 @@ export default function Post(){
                     background: "#426e86",
             }}>
                 <div className={"container "+style.content}>
-                    <h1>{data.title}</h1>
-                    <p>{data.text}</p>
+                    <h1>{currentvisitedblog[0]}</h1>
+                    <p>{currentvisitedblog[1]}</p>
                 </div>
             </div>
             <div className="col-md-5 col-lg-3 col-sm-12 d-flex flex-column" style={{
                     backgroundColor: "#f8f1e5",                
             }}>
                 {
-                    sidebarLinks.map((i, index) => {
+                    blogdata.map((i, index) => {
                         return (
                             <div key={index} className={"col-12 p-3 "+style.content}>
-                                <Link className={style.sidebarlink} href={i.url}><span className="h4">{i.text}</span></Link>
+                                <Link className={style.sidebarlink} href={index.toString()}><span className="h4">{i[0]}</span></Link>
                             </div>        
                         )
                     })
@@ -58,4 +70,14 @@ export default function Post(){
             </div>
         </div>
     </>
+}
+
+export async function getServerSideProps(){
+    let blogdata = blogdb.post
+
+    return {
+        props : {
+            blogdata
+        }
+    }
 }
