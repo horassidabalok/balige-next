@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import { useEffect } from "react";
 
 export default function Header({addtClass, addtStyles}){
@@ -11,14 +12,19 @@ export default function Header({addtClass, addtStyles}){
 
     return (
         <nav className={"navbar navbar-dark "+addtClass} style={addtStyles}>
+            <Head>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,200" />            
+            </Head>
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">{navbarBrand}</a>
                 <button style={{
                     border : 0,
                     background : 0,
                 }} type="button" data-bs-toggle="collapse" data-bs-target="#headernavigation" aria-controls="headernavigation" aria-expanded="false" aria-label="Nav Tog">
-                <span>expand</span>                
-            </button>
+                    <span class="material-symbols-outlined text-white">
+                    menu
+                    </span> 
+           </button>
             <div className="collapse navbar-collapse"  id="headernavigation">
                 <div style={{
                     "display" : "flex",
