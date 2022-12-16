@@ -2,8 +2,8 @@
     "storageurl" : "https://shuttered-aviation.000webhostapp.com",
     "destination" : [
         {
-            "nama" : "Air Terjun sigura-gura",
-            "nFoto" : 10,
+            "nama" : "Air Terjun sigura- gura",
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.4,
             "links" : [
@@ -11,12 +11,12 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Dusun Sigura-Gura, Desa Pintu Pohan Dolok, Kecamatan Pintu Pohan Meranti, Kabupaten Toba Samosir, Provinsi Sumatra Utara, Indonesia",
-            "deskripsi" : "Pemandangannya indah dan udaranya sejuk"
+            "deskripsi" : "Memiliki view yang bagus dan arangnya air terjun. Memiliki petunjuk jalan cukup lengkap dan panduannya adalah Pulo Raja Asahan. Walau akan banyak ditemui jalan yang kurang bagus, tapi masih bisa dan aman dilalui kendaraan kecil. Setelah itu, anda akan melewati 3 jembatan yakni, yang berasa di dekat Air Terjun Limut dan sesudahnya dekat dengan Kantor PTP Bandar Pulo"
         },
         {
             
             "nama" : "Pantai Lumban Silintong",
-            "nFoto" : 10,
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.3,
             "links" : [
@@ -24,12 +24,12 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Lumban Silintong Balige Kab Toba Samosir",
-            "deskripsi" : "Pemandangan yang indah serta air danau yang jernih"
+            "deskripsi" : "Pantai Lumban silintong memiliki pemandangan yang indah, airnya sejuk dan menyajikan hiburan yang lain. sangat cocok untuk membawa keluarga ketika liburan ke pantai ini. Selain itu juga pantai nya memiliki warna pantai yang indah sehingga diharapkan tetap dijaga kelestarian dari pantai ini."
         },
         {
             
-            "nama" : "Pantai Bulbul Balige",
-            "nFoto" : 10,
+            "nama" : "Pantai BUL BUL",
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.3,
             "links" : [
@@ -37,11 +37,11 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Lumban Bulbul, balige, Toba, Sumatera Utara",
-            "deskripsi" : "Pemandangan yang indah serta air danau yang jernih"  
+            "deskripsi" : "Pantai Bul-Bul Balige Samosir Danau Toba ini menyajikan pasir putihnya yang berbeda dengan tempat yang lain. Tempatnya asik baik untuk anak-anak maupun dewasa karena garis pantai air yang landai. Ada kapal, speed boat dengan banana, sewa ban kecil, sedang, besar, atau mau naik ATV juga bisa. Kamar mandi banyak, ada mushola, parkir luas"  
         },
         {
-            "nama" : "Pasar Balige",
-            "nFoto" : 10,
+            "nama" : "Pasar Tradisional Balige",
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.3,
             "links" : [
@@ -49,11 +49,11 @@
             ],
             "jamBuka" : "8 AM - 6 PM", 
             "alamat" : "Jl. Sm Raja, Napitupulu Bagasan, Kec. Balige, Toba, Sumatera Utara",
-            "deskripsi" : "Pasar tradisional yg bangunan atap nya tradisional ciri has Tapanuli, , sangat ramai, pagi maupun malam, menjual seperti layak nya pasar, mantap, pertahankan ciri khas  tempat tersebut"  
+            "deskripsi" : "Pasar tradisional yang memiliki bangunan dengan tradisional ciri khas Tapanuli. Sangat ramai, pagi maupun malam, dengan tempatnya yang luas dan banyak menjual segala jenis buah dan sayuran. Ada juga menjual ulos dan pernak pernik Toba yang cocok dijadikan oleh-oleh ketika kembali ke rumah."  
         },
         {
-            "nama" : "Makam Sisimangaraja XII",
-            "nFoto" : 10,
+            "nama" : "Makam Sisingamangaraja XII",
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.5,
             "links" : [
@@ -61,12 +61,12 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Silalahi Pagar Batu, Balige, Toba, Sumatera Utara",
-            "deskripsi" : "Tempat bersih dan nyaman, penjaga makam sangat ramah"  
+            "deskripsi" : "Merupakan makam pahlawan nasional Indonesia yaitu Sisingamangaraja XII. Makamnya cukup terawat dan bersih serta nyaman untuk dikunjungi, di dekat makam juga terdapat perpustakaan dan dekat dengan Museum T.B. Silalahi. h"  
         },  
         {
             
             "nama" : "Bukit Pahoda",
-            "nFoto" : 10,
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.5,
             "links" : [
@@ -74,11 +74,23 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Lumban Silintong, Balige, Toba, Sumatera Utara",
-            "deskripsi" : "Tempat nyaman untuk memandang danau dan sebagian kota Balige yang padat. Kalau sudah menuju petang ada sunset yang menyenangkan juga gemerlap lampu kota yang indah."  
+            "deskripsi" : "Tempat nyaman untuk memandang danau dan sebagian kota Balige yang padat. Kalau sudah menuju petang ada sunset yang menyenangkan juga gemerlap dan lampu kota yang indah. Saat ingin pulang waktu gelap pastikan punya cahaya lampu yang cukup terang. Tidak hanya itu, pemandangan sawah-sawah dan bukit juga tidak kalah indahnya disini. Silahkan menikmati perjalananmu!"  
+        },
+        {
+            "nama" : "Bukit Tara Bunga",
+            "nFoto" : 0,
+            "featuredFoto" : 0,
+            "rating" : 4.5,
+            "links" : [
+                ["Google Map", "https://maps.app.goo.gl/Dehmjb2Q5cATmkAu5?g_st=iw"]
+            ],
+            "jamBuka" : "24 Jam", 
+            "alamat" : "Lintong Nihuta, Tampahan, Toba, Sumatera Utara",
+            "deskripsi" : "Bukit dekat pemandangan Danau Toba yang indah, sangat cocok untuk bersantai sambil menikmati sunset disini. Wisatawan datang kesini bersantai sambil menikmati indahnya Danau Toba dari bukit Tara Bunga"
         },
         {
             "nama" : "Desa Meat",
-            "nFoto" : 10,
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.5,
             "links" : [
@@ -86,12 +98,12 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jl. Raya Meat, Meat, Kec. Tampahan, Toba, Sumatera Utara",
-            "deskripsi" : "Desanya sangat Indah dan asri. Pemandangannya juga sangat cantik"
+            "deskripsi" : "Pemandangan Danau Toba dari Desa Meat dapat kita lihat dengan jelas dan indah. Tidak bisa dilukiskan dengan kata-kata. Adapun jalan menuju Desa Meat sudah bagus dan bisa dilewati oleh kendaraan."
         },
         {
             
             "nama" : "Pulau Samosir",
-            "nFoto" : 10,
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.6,
             "links" : [
@@ -99,11 +111,11 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Kab.Samosir, Sumatera Utara",
-            "deskripsi" : "Pemandangan asri memanjakan mata. Sangat menyenangkan ke Samosir"
+            "deskripsi" : "Merupakan pulau yang sangat indah. Memiliki banyak destinasi wisata yang menarik ingin dikunjungi. Jika ingin ber-refreshing sangat cocok untuk ke Pulau Samosir. Pulau Samosir juga banyak menjual pernak pernik khas Toba yang sangat cocok dijadikan oleh-oleh ketika balik ke rumah."
         },
         {
             "nama" : "Taman Eden 100",
-            "nFoto" : 9,
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.5,
             "links" : [
@@ -111,11 +123,11 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Lumbanrang, Ps. Lumban Julu, Kec. Lumban Julu, Toba, Sumatera Utara",
-            "deskripsi" : "Tempat refreshing yg menakjubkan utk bermain & belajar jenis tumbuhan serta menikmati segarnya udara & bermain di air terjun"
+            "deskripsi" : "Tempat refreshing yg menakjubkan untuk bermain & belajar tentang jenis-jenis tumbuhan serta menikmati segarnya udara & bermain di air terjun. Bagi anda yang suka masak dengann menggunakan Bumbu Andaliman, anda bisa membeli bubuk andaliman serta bisa membeli BanDaL (Bandrek Andaliman)."
         },
         {
-            "nama" : "Air Terjun Situmurun",
-            "nFoto" : 10,
+            "nama" : "Air terjun Situmurun ",
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.6,
             "links" : [
@@ -123,11 +135,11 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jonggi Nihuta, Lumban Julu, Hatinggian, Kec. Lumban Julu, Toba, Sumatera Utara",
-            "deskripsi" : "pemandangan selama perjalanan sangat bagus, untuk spot foto tidak banyak, airnya segar kalau berenang di sekitaran air terjunnya"
+            "deskripsi" : "Keindahan Situmurun waterfall yang letaknya tersembunyi dan airnya yang langsung terjun ke Danau Toba dengan ketinggian 70 meter. Menurut warga lokal, air terjun ini memiliki 7 tingkatan."
         },
         {
             "nama" : "Museum Batak TB Silalahi",
-            "nFoto" : 10,
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.5,
             "links" : [
@@ -135,12 +147,11 @@
             ],
             "jamBuka" : "8.30 AM - 4.30 AM", 
             "alamat" : "JL.Dr.TB. Silalahi No.88, Silalahi Pagar Batu, Kec. Balige, Toba, Suamtera Utara",
-            "deskripsi" : "Destinasi yang sangat menarik utk dikunjungi jika anda ingin mempelajari sebagian besar hal tentang budaya batak" 
+            "deskripsi" : "Destinasi yang sangat menarik untuk dikunjungi jika anda ingin mempelajari sebagian besar hal tentang budaya batak. Mulai dari sejarah, silsilah, budaya, peristiwa penting, pakaian, perkakas, hingga replika rumah dan perkampungan adat dapat ditemukan di sini. Semua informasi dan benda ditampilkan dalam display yang modern dan diatur dengan alur yg sangat menarik." 
         },
-        
         {
-            "nama" : "Tugu D.I Pandjaitan",
-            "nFoto" : 10,
+            "nama" : "Tugu D.I  Panjaitan",
+            "nFoto" : 0,
             "featuredFoto" : 0,
             "rating" : 4.4,
             "links" : [
@@ -148,8 +159,10 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Napitupulu Bagasan, Balige, Toba, Sumatera Utara",
-            "deskripsi" : "Tempat yang bagus "
-        }    
+            "deskripsi" : "Tempat yang sangat menarik. Disini anda bisa melihat sejarah dari pahlawan di Panjaitan. Pemerintah sudah meningkatkan lagi tempat wisata ini supaya wisatawan tertarik untuk datang ke tugu ini"
+        }
+    
+        
     ],
     "accomodation" : [
         {
@@ -167,7 +180,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jl. Pemandian No.94, Lumban Silintong, Balige, Toba, North Sumatra 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Damar Toba terletak di Balige, 11 km dari Laguboti, dan menyediakan akomodasi dengan restoran, parkir pribadi gratis, serta taman. Hotel bintang 3 ini menawarkan layanan kamar. Hotel ini memiliki kamar keluarga. Setiap kamar di hotel ini ber-AC, dan dilengkapi dengan meja, teras dengan pemandangan danau, kamar mandi pribadi, TV layar datar, seprai, serta handuk. Kamar-kamarnya memiliki brankas. Anda dapat menikmati sarapan ala Amerika di Damar Toba. Bonandolok berjarak 14 km dari akomodasi, sedangkan Hutasalem berjarak 16 km. Bandara terdekat adalah Bandara Internasional Sisingamangaraja XII, 18 km dari Damar Toba."
         },
         {
             "nama" : "Grand Mareda Hotel",
@@ -180,7 +193,7 @@
             ],
             "jamBuka" : " 24 Jam", 
             "alamat" : "Jl Pasar Melintang, Aruan, Kec. Balige, Toba, Sumatera Utara 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Grand Mareda Hotel adalah hotel murah. Dengan harga yang relatif murah, Grand Mareda Hotel tetap mengedepankan kenyamanan bagi pengunjung yang datang dan bermalam di Grand Mareda Hotel. Dan tentu saja, semua orang bisa tinggal di sini. Ada juga restoran di tempat yang menyajikan hidangan Asia hingga Barat. Terdapat restoran yang menyajikan menu lezat ala Grand Mareda Hotel khusus untuk Anda.Ada rental mobil yang bisa Anda gunakan untuk berkeliling dan menikmati daerah sekitarnya, tidak hanya itu mereka juga menyediakan sewa motor jika Anda ingin lebih praktis. Fasilitas seperti layanan kamar harian juga tersedia, staf akan selalu membersihkan kamar Anda secara teratur setiap hari pada jam-jam tertentu selama Anda menginap di sini, untuk kenyamanan Anda selama Anda menginap di hotel ini."
         },
         {
             "nama" : "Grand Toba",
@@ -193,7 +206,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "8 Jalan Bukit Barisan kecamatan napitupulu , depan kantor dinas kehutanan balige lantai 1, Hinalang Bagasan, Kec. Balige, Toba, Sumatera Utara 22312",
-            "deskripsi" : ""
+            "deskripsi" : "GRAND TOBA HOTEL menawarkan akomodasi ber-AC di Balige. Hotel bintang 2 ini menawarkan layanan kamar dan lounge bersama. Akomodasi ini menawarkan resepsionis 24 jam, dapur bersama, dan penitipan bagasi untuk Anda. Semua kamar di hotel ini dilengkapi dengan meja, TV layar datar, kamar mandi pribadi, seprai, dan handuk. Di GRAND TOBA HOTEL, kamar-kamarnya memiliki area tempat duduk.Anda dapat menikmati hidangan à la carte atau sarapan Asia di akomodasi."
         },
         {
             "nama" : "Hotel Ompu Herti",
@@ -206,7 +219,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jl. Pemandian No.02, Tobasa, Sangkar Nihuta, Kec. Balige, Balige, Sumatera Utara 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Hotel Ompu Herti terletak di Bali, 2,2 km jauhnya. dari Pantai Lumban Bul Bul, dan menawarkan restoran, parkir pribadi gratis, taman, dan teras. Properti ini berjarak sekitar 9,2 km. dari Laguboti, 12 km. dari Bonandolok dan 14 km. dari Hutasalem. Properti ini menawarkan resepsionis 24 jam, layanan antar-jemput, layanan kamar, dan Wi-Fi gratis di seluruh area. Hotel ini juga menyajikan sarapan prasmanan atau sarapan halal."
         },
         {
             "nama" : "Labersa Toba Hotel",
@@ -219,7 +232,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jl. Pematangsiantar- Balige Toba  Samosir, Balige, Danau Toba, Sumatera Utara, Indonesia, 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Labersa Hotel & Convention Center adalah Properti Bintang Empat, Terletak di Balige, toba, Sumatera Utara. Hanya 40 menit dari Bandara Internasional Sisingamangaraja XXI dan 5 menit dari Ibu Kota Toba, Balige. Hotelnya sendiri terletak tepat di tepi Danau Toba. Danau Vulkanik terbesar di dunia. Karena lokasinya yang istimewa, hotel ini menjadi pilihan yang menarik."
         },
         {
             "nama" : "Mutiara Hotel Balige",
@@ -232,7 +245,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jalan Tarutung No.120, Balige, Danau Toba, Sumatera Utara, Indonesia, 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Dari segi lokasi cukup strategis berada di tepi danau Toba. Pemandangan dari kamar hotel sangat menarik, langsung ke danau Toba dan menghadap ke pulau Samosir. Fasilitas hotelnya minimalis, hanya tersedia tangga dan tidak tersedia lift di hotel ini. Selain itu, menggunakan pendingin udara (AC). Pelayanan hotel, biasa saja dan cenderung baik. Makanan yang disediakan saat sarapan minimalis, tetapi sisi baiknya hotel ini menyajikan makanan halal. Untuk selain sarapan di hotel ini juga bisa pesan makanan mulai dari jam 12.00 sampai malam. Makanan dan minuman yang bisa dipesan cukup beragam; Nasi goreng, Bihun goreng, Indomie Goreng/rebus, Soto Betawi, Soto Ayam, Kentang goreng, Pisang goreng keju"
         },
         {
             "nama" : "Tiara Bunga Hotel",
@@ -245,7 +258,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jl. Raya TaraBunga, Tara Bunga, Kec. Tampahan, Toba, Sumatera Utara 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Berjarak 4.9 km dari Hot spring. So beautiful, Tiara Bunga Hotel & Villa Balige merupakan hotel berbintang 3 yang memiliki lounge bersama dan kebun. Soposurung Foundation Dormitory berjarak 4.9 km dari Tiara Bunga Hotel & Villa. Properti berjarak 6 km dari pusat kota Balige. Terdapat akses mudah ke pantai pribadi. Tiara Bunga Hotel & Villa terletak di dekat Bukit Pahoda."
         },
         {
             "nama" : "Hotel Nabasa",
@@ -258,7 +271,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jl. Siliwangi No.8, Kec. Balige, Toba, Sumatera Utara",
-            "deskripsi" : ""
+            "deskripsi" : "Menginap di Nabasa Hotel Balige saat anda sedang berada di Balige adalah sebuah pilihan cerdas. Lokasi hotel sangat strategis karena hanya berjarak 11,54 km dengan Bandar Udara Silangit (DTB). hotel ini cukup mudah dijangkau karena berdekatan dengan fasilitas publik."
         },
         {
             "nama" : "Aquino Marito Homestay RedPartner",
@@ -271,7 +284,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jl. Pemandian, Lumban Silintong, Kec. Balige, Toba, Sumatera Utara 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Aquino Marito Homestay RedPartner adalah akomodasi di lokasi yang baik, tepatnya berada di Balige.Selain letaknya yang strategis, Aquino Marito Homestay RedPartner juga merupakan akomodasi dekat Air Terjun Ponot Asahan berjarak sekitar 36,87 km dan Makam Raja Sidabutar berjarak sekitar 43,7 km"
         },
         {
             "nama" : "GM Marsingar Hotel",
@@ -284,7 +297,7 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jalan Gereja No. 32, Balige, Danau Toba, Sumatera Utara, Indonesia, 22315",
-            "deskripsi" : ""
+            "deskripsi" : "Hotel ini berada Di kota Balige, cocok bust pelancong yang inngin menikmati kota Balige. Lokasinya yang dekat dengan pusat kota Balige, sangat dekat untuk jalan jalan menikmati kuliner di malam hari. Pilihan kamar dengan design bernuansa Eropa lumayan nyaman saat menikmati tidur. Hotel ini cukup bersih dan nyaman. Tersedia air panas di kamar mandi. Buat Anda yang lagi menikmati Danau Toba bisa menginap di hotel ini."
         },
         {
             "nama" : "Lago Hotel & Resto",
@@ -297,25 +310,10 @@
             ],
             "jamBuka" : "24 Jam", 
             "alamat" : "Jalan Sibolahotang SAS Desa Sibolahotang,Balige Kec.Balige Kab.Toba Samosir, Balige, Danau Toba, Sumatera Utara, Indonesia, 22312",
-            "deskripsi" : ""
+            "deskripsi" : "Lago Hotel and Resto di Balige menawarkan akomodasi bintang 3 yang menghadap ke pantai dengan fasilitas restoran, bar, taman, area pantai pribadi, teras, resepsionis 24 jam, antar-jemput bandara, layanan kamar, dan WiFi gratis."
         }
     ],
-    "post" : [
-        [
-            "Bangga Jadi Anak Toba!",
-            "Danau alami ini terbentuk akibat letusan gunung berapi super sekitar 77.000 tahun lalu. Memiliki luas lebih dari 1.145 kilometer persegi, dan kedalamannya 508 meter. Itulah mengapa, Danau Toba sebenarnya lebih mirip lautan. Terlebih, menjadi danau terbesar di Asia Tenggara dan salah satu danau terdalam di dunia! Keren bukan?  Danau Toba terbentuk dari tiga letusan besar Gunung Toba. Letusan pertama menghasilkan kaldera di sisi selatan, letusan kedua membentuk kaldera di sisi utara, letusan ketiga yang terbesar mengubah Gunung Toba menjadi Danau Toba. Yang lebih kerennya lagi, UNESCO sendiri telah menetapkan kaldera Toba sebagai  Global Geopark atau menjadi warisan dunia. Posisi Danau Toba yang terletak 900 meter di atas permukaan laut, membuat suasana di sekitar danau lebih sejuk. Selain itu, keindahannya juga bisa dilihat dari peran Danau Toba yang juga rumah bagi dua kelompok suku yaitu Tomok dan Simanindo. Terdapat pusat tenun sekaligus pusat kerajinan berkelas dunia yaitu wilayah Huta Raja, Desa Lumban Suhi-Suhi, Samosir.            Itulah sebabnya kalian, terlebih lagi masyarakat Toba harus bangga karena banyakk sekali hal menarik dari Toba!"
-        ],
-        [
-            "Ssst! Ada cerita apa dari Toba?", "Danau Toba merupakan salah satu danau yang menjadi tempat wisata menarik bagi para wisatawan. Banyak orang yang mengunjungi, karena danau tersebut memiliki keindahan yang menyegarkan pikiran dan menenangkan hati. Selain, menawarkan keindahan pemandangan, danau Toba juga terkenal dengan legendanya yaitu cerita rakyat tentang asal-usul munculnya danau Toba. Yuk baca ceritanya!            Kisah ini bermula dari seorang pemuda bernama Toba. Ia merupakan yatim piatu yang hidup sebatang kara. Pekerjaan sehari-hari dari Toba adalah memancing atau bekerja di ladang. Suatu hari, Toba memutuskan untuk memancing di sungai untuk dijadikan sebagai lauk. Beruntungnya, mata kail yang dilemparkan berhasil menangkap seekor ikan besar.            Ikan tersebut menarik perhatian Toba karena ukuran serta bentuknya yang berbeda dari ikan-ikan lainnya. Warna ikan itu adalah kekuningan dan sisik-sisiknya kuning keemasan. Toba semakin terkejut ketika melihat ikan tersebut berubah menjadi seorang perempuan yang cantik jelita. \"Tuan, aku adalah kutukan Dewa karena telah melanggar larangan besarnya. Telah ditakdirkan kepadaku, bahwa aku akan berubah bentuk menyerupai makhluk apa saja yang memegang atau menyentuhku. Karena tuan telah memegangku, maka akupun berubah menjadi manusia seperti Tuan ini,\" ungkap perempuan tersebut. Toba akhirnya membawa perempuan tersebut ke rumah dan karena kecantikan yang dimiliki oleh perempuan itu, Toba meminta izin untuk menikahinya. Perempuan itu lantas menyetujui tetapi dengan beberapa syarat. \"Permintaanku hanya satu, hendaklah tuan menutup rapat-rapat rahasiaku. Jangan sekali-kali tuan menyebutkan jika aku berasal dari ikan. Jika tuan menyatakan kesediaan tuan untuk menjaga rahasia ini, aku bersedia menjadi istri Tuan,\" jelas perempuan tersebut.            Toba pun menyetujuinya dan mereka pun menikah. Pernikahan tersebut berjalan sesuai dengan harapan. Keduanya hidup dalam kebahagiaan dan juga kesederhanaan hingga akhirnya mereka memiliki seorang anak laki-laki bernama Samosir. Samosir tumbuh menjadi anak yang memiliki kepribadian cukup nakal dan sulit untuk dimintai tolong. Bahkan Samosir hanya ingin tidur-tiduran saja di rumah tanpa membantu siapa pun. Tidak hanya itu, Samosir memiliki nafsu makan yang tinggi dan membuat Toba harus mencari lauk pauk yang lebih dari biasanya. Suatu hari, sang ibu meminta tolong kepada Samosir untuk mengantarkan makanan kepada Toba yang ada di ladang. Meski malas, Samosir akhirnya mengiyakan permintaan ibunya dan berjalan menuju ladang. Sayangnya, baru sampai setengah perjalanan, Samosir merasa lapar dan memutuskan untuk memakan setengah bekal yang diberikan sang ibu untuk ayahnya.            Mengetahui bahwa makanannya hanya setengah saja, Toba marah dan membentak Samosir. Toba bahkan tidak sengaja mengatakan kepada Samosir bahwa ia adalah anak dari seekor ikan. Mendengar hal ini, Samosir pergi ke ibunya dan mengadukan apa yang telah dikatakan Toba. Apa yang diceritakan Samosir membuat sang ibu marah kepada suaminya, Toba, yang telah melanggar janji. Tidak lama setelah itu, Samosir dan ibunya menghilang dan tanah yang sebelumnya dipijak oleh mereka mengeluarkan air yang begitu banyak. Air tersebut dalam sekejap membuat seluruh daratan yang ada di sekitarnya dipenuhi dengan air dan membentuk sebuah danau. Kini, danau tersebut dikenal sebagai Danau Toba dan pulau yang ada di tengahnya adalah Pulau Samosir."
-        ],
-        [
-            "Makanan Wajib Saat ke Toba!", "Danau Toba tidak hanya menang dalam hal pemandangan nya. Daerah Toba juga terkenal dengan berbagai macam kuliner unik dqn menggoda! Mau tau apa saja? Sini kami kasihtau! <br>            1. Mie Gomak <br>            Mie Gomak adalah hidangan berkuah dengan cita rasa khas Batak Toba atau sering disebut sebagai spaghetti Batak. Berbahan utama mie lidi yang dibuat dengan cara direbus bersama santan bumbu kuning. Dalam penyajiannya, Mie Gomak biasanya ditambahkan telur rebus.            <br><br>            2. Naniura<br>            Naniura adalah makanan khas Batak Toba yang cukup unik. Berupa ikan tuna mentah yang dimasak tanpa api. Ikan tuna yang dipotong dan dipisahkan dari sisiknya, kemudian dimarinasi dengan air jeruk dan bumbu seperti andaliman, bawang merah, bawang putih, dan kecombrang. Rasanya lebih nikmat daripada sashimi karena dibumbui rempah lengkap. Wah, wajib banget dicoba sajian ikan sashimi ala Indonesia ini!            <br><br>            3. Tombur                        Tombur merupakan salah satu makanan khas Batak yang berasal dari Tapanuli. Hidangan tradisional ini menggunakan ikan lele atau ikan mujair yang diolah dengan cara dibakar. Kemudian ikan bakar yang kaya rempah ini disajikan bersama nasi hangat dan sambal. Penyajiannya mirip dengan lele penyet atau pecel lele.            <br><br>                        4. Arsik Ikan Mas<br>            Perkenalkan makanan khas Batak yang berasal dari Medan, Sumatera Utara satu ini. Makanan ini identik menggunakan ikan mas sebagai olahan utamanya. Ikan mas diolah dengan cara direbus bersama bumbu kuning yang berasal dari aneka rempah yang hangat dan kuat. Makanan ini menjadi simbol budaya kuliner di Batak. Arsik ikan mas ini juga merupakan makanan wajib untuk acara adat atau acara penting bagi warga Batak.            5. Dali Ni Horbo<br><br>            Makanan khas Batak ini nampak seperti tahu pada umumnya, namun sebenarnya ini adalah susu kerbau yang dipadatkan. Makanan khas Batak Toba yang paling banyak diburu ini memiliki rasa yang khas dan unik. Cukup langka menemukan makanan eksotis ini dengan rasa sedikit pahit namun menggugah selera. Anda dapat menemukan kuliner ini di sekitar daerah  Porsea, Laguboti, dan Balige.            <br><br>            6. Saksang<br>                        Saksang merupakan makanan khas Batak non halal yang biasa disajikan dalam berbagai acara adat masyarakat Suku Batak. Dimasak menggunakan bumbu racikan, contohnya andaliman, membuat rasa daging babi menjadi lebih gurih dan nikmat. Makanan ini juga merupakan makanan wajib untuk acara adat atau acara penting bagi warga Batak, karena bagi warga Batak daging babi merupakan lambang kemakmuran."
-        ],
-        [
-            "", ""
-        ],
-        [
-            "", ""
-        ]
-    ]
+    "post" : {
+
+    }
 }

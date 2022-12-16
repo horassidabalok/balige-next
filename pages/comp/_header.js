@@ -16,7 +16,7 @@ export default function Header({addtClass, addtStyles}){
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,200" />            
             </Head>
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">{navbarBrand}</a>
+                <Link className="navbar-brand" href="#">{navbarBrand}</Link>
                 <button style={{
                     border : 0,
                     background : 0,
